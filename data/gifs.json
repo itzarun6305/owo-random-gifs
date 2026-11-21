@@ -1,0 +1,266 @@
+{
+  "battle_win": [
+    {
+      "id": "pair-01",
+      "side": "side-01.gif",
+      "bottom": "bottom-01.gif"
+    },
+    {
+      "id": "pair-02",
+      "side": "side-02.gif",
+      "bottom": "bottom-02.gif"
+    }
+  ],
+  "battle_tie": [
+    {
+      "id": "pair-01",
+      "side": "side-01.gif",
+      "bottom": "bottom-01.gif"
+    },
+    {
+      "id": "pair-02",
+      "side": "side-02.gif",
+      "bottom": "bottom-02.gif"
+    }
+  ],
+  "battle_loss": [
+    {
+      "id": "pair-01",
+      "side": "side-01.gif",
+      "bottom": "bottom-01.gif"
+    },
+    {
+      "id": "pair-02",
+      "side": "side-02.gif",
+      "bottom": "bottom-02.gif"
+    }
+  ],
+  "hunt": [
+    {
+      "id": "pair-01",
+      "side": "side-01.gif",
+      "bottom": "bottom-01.gif"
+    },
+    {
+      "id": "pair-02",
+      "side": "side-02.gif",
+      "bottom": "bottom-02.gif"
+    }
+  ],
+  "pray": [
+    {
+      "id": "pair-01",
+      "side": "side-01.gif",
+      "bottom": "bottom-01.gif"
+    },
+    {
+      "id": "pair-02",
+      "side": "side-02.gif",
+      "bottom": "bottom-02.gif"
+    }
+  ],
+  "curse": [
+    {
+      "id": "pair-01",
+      "side": "side-01.gif",
+      "bottom": "bottom-01.gif"
+    },
+    {
+      "id": "pair-02",
+      "side": "side-02.gif",
+      "bottom": "bottom-02.gif"
+    }
+  ],
+  "kill": [
+    {
+      "id": "pair-01",
+      "side": "side-01.gif",
+      "bottom": "bottom-01.gif"
+    },
+    {
+      "id": "pair-02",
+      "side": "side-02.gif",
+      "bottom": "bottom-02.gif"
+    }
+  ],
+  "hug": [
+    {
+      "id": "pair-01",
+      "side": "side-01.gif",
+      "bottom": "bottom-01.gif"
+    },
+    {
+      "id": "pair-02",
+      "side": "side-02.gif",
+      "bottom": "bottom-02.gif"
+    }
+  ],
+  "kiss": [
+    {
+      "id": "pair-01",
+      "side": "side-01.gif",
+      "bottom": "bottom-01.gif"
+    },
+    {
+      "id": "pair-02",
+      "side": "side-02.gif",
+      "bottom": "bottom-02.gif"
+    }
+  ],
+  "pat": [
+    {
+      "id": "pair-01",
+      "side": "side-01.gif",
+      "bottom": "bottom-01.gif"
+    },
+    {
+      "id": "pair-02",
+      "side": "side-02.gif",
+      "bottom": "bottom-02.gif"
+    }
+  ],
+  "slap": [
+    {
+      "id": "pair-01",
+      "side": "side-01.gif",
+      "bottom": "bottom-01.gif"
+    },
+    {
+      "id": "pair-02",
+      "side": "side-02.gif",
+      "bottom": "bottom-02.gif"
+    }
+  ],
+  "cuddle": [
+    {
+      "id": "pair-01",
+      "side": "side-01.gif",
+      "bottom": "bottom-01.gif"
+    },
+    {
+      "id": "pair-02",
+      "side": "side-02.gif",
+      "bottom": "bottom-02.gif"
+    }
+  ],
+  "bite": [
+    {
+      "id": "pair-01",
+      "side": "side-01.gif",
+      "bottom": "bottom-01.gif"
+    },
+    {
+      "id": "pair-02",
+      "side": "side-02.gif",
+      "bottom": "bottom-02.gif"
+    }
+  ],
+  "lick": [
+    {
+      "id": "pair-01",
+      "side": "side-01.gif",
+      "bottom": "bottom-01.gif"
+    },
+    {
+      "id": "pair-02",
+      "side": "side-02.gif",
+      "bottom": "bottom-02.gif"
+    }
+  ],
+  "punch": [
+    {
+      "id": "pair-01",
+      "side": "side-01.gif",
+      "bottom": "bottom-01.gif"
+    },
+    {
+      "id": "pair-02",
+      "side": "side-02.gif",
+      "bottom": "bottom-02.gif"
+    }
+  ],
+  "poke": [
+    {
+      "id": "pair-01",
+      "side": "side-01.gif",
+      "bottom": "bottom-01.gif"
+    },
+    {
+      "id": "pair-02",
+      "side": "side-02.gif",
+      "bottom": "bottom-02.gif"
+    }
+  ],
+  "cry": [
+    {
+      "id": "pair-01",
+      "side": "side-01.gif",
+      "bottom": "bottom-01.gif"
+    },
+    {
+      "id": "pair-02",
+      "side": "side-02.gif",
+      "bottom": "bottom-02.gif"
+    }
+  ],
+  "dance": [
+    {
+      "id": "pair-01",
+      "side": "side-01.gif",
+      "bottom": "bottom-01.gif"
+    },
+    {
+      "id": "pair-02",
+      "side": "side-02.gif",
+      "bottom": "bottom-02.gif"
+    }
+  ],
+  "wave": [
+    {
+      "id": "pair-01",
+      "side": "side-01.gif",
+      "bottom": "bottom-01.gif"
+    },
+    {
+      "id": "pair-02",
+      "side": "side-02.gif",
+      "bottom": "bottom-02.gif"
+    }
+  ],
+  "wink": [
+    {
+      "id": "pair-01",
+      "side": "side-01.gif",
+      "bottom": "bottom-01.gif"
+    },
+    {
+      "id": "pair-02",
+      "side": "side-02.gif",
+      "bottom": "bottom-02.gif"
+    }
+  ],
+  "feed": [
+    {
+      "id": "pair-01",
+      "side": "side-01.gif",
+      "bottom": "bottom-01.gif"
+    },
+    {
+      "id": "pair-02",
+      "side": "side-02.gif",
+      "bottom": "bottom-02.gif"
+    }
+  ],
+  "highfive": [
+    {
+      "id": "pair-01",
+      "side": "side-01.gif",
+      "bottom": "bottom-01.gif"
+    },
+    {
+      "id": "pair-02",
+      "side": "side-02.gif",
+      "bottom": "bottom-02.gif"
+    }
+  ]
+}
