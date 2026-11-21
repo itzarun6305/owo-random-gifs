@@ -1,15 +1,10 @@
 const gifs = require("../../data/gifs.json");
 const crypto = require("crypto");
 
-const ROTATION_MINUTES = 5;
+const ROTATION_MINUTES = 1;
 
 function getPairIndex(category, slot, count) {
-  const digest = crypto
-    .createHash("sha256")
-    .update(`${category}:${slot}`)
-    .digest();
-
-  return digest.readUInt32BE(0) % count;
+  return slot % count;
 }
 
 module.exports = function handler(req, res) {
