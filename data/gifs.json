@@ -3,24 +3,24 @@
     {
       "id": "pair-01",
       "side": "side-01.gif",
-      "bottom": "bottom-01.gif"
+      "bottom": "bottom-01.png"
     },
     {
       "id": "pair-02",
       "side": "side-01.gif",
-      "bottom": "bottom-02.gif"
+      "bottom": "bottom-02.png"
     }
   ],
   "battle_tie": [
     {
       "id": "pair-01",
       "side": "side-01.gif",
-      "bottom": "bottom-01.gif"
+      "bottom": "bottom-01.png"
     },
     {
       "id": "pair-02",
       "side": "side-01.gif",
-      "bottom": "bottom-02.gif"
+      "bottom": "bottom-02.png"
     }
   ],
   "battle_loss": [
