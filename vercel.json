@@ -1,0 +1,9 @@
+
+{
+  "rewrites": [
+    {
+      "source": "/random/:category/:position.gif",
+      "destination": "/api/random/:category/:position"
+    }
+  ]
+}
