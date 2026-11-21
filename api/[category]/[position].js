@@ -1,7 +1,7 @@
 
 const gifs = require("../../data/gifs.json");
-
-const ROTATION_MINUTES = 1;
+const fs = require("fs");
+const path = require("path");
 
 module.exports = function handler(req, res) {
   if (req.method !== "GET") {
@@ -16,18 +16,13 @@ module.exports = function handler(req, res) {
     return res.status(400).send("Invalid position");
   }
 
-  const pairs = gifs[category];
+  const images = gifs[category]?.[position];
 
-  if (!Array.isArray(pairs) || pairs.length === 0) {
-    return res.status(404).send("Category not found");
+  if (!Array.isArray(images) || images.length === 0) {
+    return res.status(404).send("No images found");
   }
 
-  const slot = Math.floor(
-    Date.now() / (ROTATION_MINUTES * 60 * 1000)
-  );
-
-  const pair = pairs[slot % pairs.length];
-  const filename = pair[position];
+  const filename = images[Math.floor(Math.random() * images.length)];
 
   if (
     typeof filename !== "string" ||
@@ -36,13 +31,30 @@ module.exports = function handler(req, res) {
     return res.status(500).send("Invalid filename");
   }
 
-  const location =
-    `/gifs/${encodeURIComponent(category)}/${encodeURIComponent(filename)}?v=${slot}`;
+  const filePath = path.join(
+    process.cwd(),
+    "public",
+    "gifs",
+    category,
+    filename
+  );
 
+  if (!fs.existsSync(filePath)) {
+    return res.status(404).send("Image not found");
+  }
+
+  const contentType = {
+    gif: "image/gif",
+    png: "image/png",
+    jpg: "image/jpeg",
+    jpeg: "image/jpeg",
+    webp: "image/webp"
+  }[path.extname(filename).slice(1).toLowerCase()];
+
+  res.setHeader("Content-Type", contentType);
   res.setHeader("Cache-Control", "no-store, no-cache, must-revalidate, max-age=0");
   res.setHeader("Pragma", "no-cache");
   res.setHeader("Expires", "0");
 
-  res.writeHead(302, { Location: location });
-  return res.end();
+  return res.status(200).send(fs.readFileSync(filePath));
 };
