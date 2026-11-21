@@ -1,7 +1,5 @@
 
 const gifs = require("../../data/gifs.json");
-const fs = require("fs");
-const path = require("path");
 
 module.exports = function handler(req, res) {
   if (req.method !== "GET") {
@@ -31,30 +29,13 @@ module.exports = function handler(req, res) {
     return res.status(500).send("Invalid filename");
   }
 
-  const filePath = path.join(
-    process.cwd(),
-    "public",
-    "gifs",
-    category,
-    filename
-  );
+  const location =
+    `/gifs/${encodeURIComponent(category)}/${encodeURIComponent(filename)}` +
+    `?turns=${encodeURIComponent(req.query.turns || "")}` +
+    `&streak=${encodeURIComponent(req.query.streak || "")}`;
 
-  if (!fs.existsSync(filePath)) {
-    return res.status(404).send("Image not found");
-  }
-
-  const contentType = {
-    gif: "image/gif",
-    png: "image/png",
-    jpg: "image/jpeg",
-    jpeg: "image/jpeg",
-    webp: "image/webp"
-  }[path.extname(filename).slice(1).toLowerCase()];
-
-  res.setHeader("Content-Type", contentType);
   res.setHeader("Cache-Control", "no-store, no-cache, must-revalidate, max-age=0");
-  res.setHeader("Pragma", "no-cache");
-  res.setHeader("Expires", "0");
 
-  return res.status(200).send(fs.readFileSync(filePath));
+  res.writeHead(302, { Location: location });
+  return res.end();
 };
