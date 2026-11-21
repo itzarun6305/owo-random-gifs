@@ -1,0 +1,2 @@
+Put the matching battle_loss GIF files in this folder.
+Keep the filenames consistent with data/gifs.json.

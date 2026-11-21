@@ -1,0 +1,2 @@
+Put the matching pray GIF files in this folder.
+Keep the filenames consistent with data/gifs.json.
