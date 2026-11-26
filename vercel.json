@@ -1,9 +1,12 @@
-
 {
   "rewrites": [
     {
+      "source": "/random/:category/:position.png",
+      "destination": "/api/random/:category/:position?ext=png"
+    },
+    {
       "source": "/random/:category/:position.gif",
-      "destination": "/api/random/:category/:position"
+      "destination": "/api/random/:category/:position?ext=gif"
     }
   ]
 }
