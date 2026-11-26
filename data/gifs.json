@@ -1,22 +1,81 @@
+
 {
   "battle_win": {
     "side": [
-      "side-01.gif",
-      "side-01.gif"
+      "side_01.png",
+      "side_02.png",
+      "side_03.png",
+      "side_04.png",
+      "side_05.png",
+      "side_06.png",
+      "side_07.png",
+      "side_08.png",
+      "side_09.png"
     ],
     "bottom": [
-      "bottom-01.png",
-      "bottom-02.png"
+      "bottom_01.png",
+      "bottom_02.png",
+      "bottom_03.png",
+      "bottom_04.png",
+      "bottom_05.png",
+      "bottom_06.png",
+      "bottom_07.png",
+      "bottom_08.png",
+      "bottom_09.png",
+      "bottom_10.png",
+      "bottom_11.png",
+      "bottom_12.png",
+      "bottom_13.png",
+      "bottom_14.png",
+      "bottom_15.png"
     ]
   },
   "battle_tie": {
     "side": [
-      "side-01.gif",
-      "side-01.gif"
+      "side_01.png",
+      "side_02.png",
+      "side_03.png",
+      "side_04.png",
+      "side_05.png",
+      "side_06.png",
+      "side_07.png",
+      "side_08.png",
+      "side_09.png"
     ],
     "bottom": [
-      "bottom-01.png",
-      "bottom-02.png"
+      "bottom_01.png",
+      "bottom_02.png",
+      "bottom_03.png",
+      "bottom_04.png",
+      "bottom_05.png",
+      "bottom_06.png",
+      "bottom_07.png",
+      "bottom_08.png",
+      "bottom_09.png"
+    ]
+  },
+  "battle_loss": {
+    "side": [
+      "side_01.png",
+      "side_02.png",
+      "side_03.png",
+      "side_04.png",
+      "side_05.png",
+      "side_06.png",
+      "side_07.png",
+      "side_08.png",
+      "side_09.png"
+    ],
+    "bottom": [
+      "bottom_01.png",
+      "bottom_02.png",
+      "bottom_03.png",
+      "bottom_04.png",
+      "bottom_05.png",
+      "bottom_06.png",
+      "bottom_07.png",
+      "bottom_08.png",
+      "bottom_09.png"
     ]
   }
 }
